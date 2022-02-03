@@ -1,0 +1,148 @@
+body {
+  background: #1b4e7e; /* fallback for old browsers */
+  background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  margin-top: 0%;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100%;
+  background: #092457; /* fallback for old browsers */
+  background-image: url("https://www.transparenttextures.com/patterns/football-no-lines.png");
+  box-shadow: 1px 9px 9px -3px rgba(0, 0, 0, 0.75);
+  justify-content: space-between;
+  display: flex;
+  font-weight: bolder;
+}
+
+.header div {
+  margin: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.playagain {
+  margin: 30px;
+  font-size: 20px;
+  border: none;
+  padding: 13px;
+  border-radius: 10px;
+  border: 5px solid rgb(235, 235, 235);
+  background-color: rgba(255, 0, 0, 0);
+  color: rgb(212, 212, 212);
+  font-family: cursive;
+  cursor: pointer;
+}
+.playagain:hover {
+  color: rgb(0, 255, 0);
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 8px 12px 9px -3px rgba(0, 0, 0, 0.75);
+  border: 5px solid rgb(0, 255, 0);
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.733);
+  font-size: 60px;
+  margin: 40px;
+  border: 5px solid rgb(230, 214, 0);
+  height: 110px;
+  width: 110px;
+  /* box-shadow: 8px 12px 9px -3px rgba(0,0,0,0.75); */
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.562);
+  box-shadow: 8px 12px 9px -3px rgba(0, 0, 0, 0.75);
+  border: 5px solid rgb(0, 255, 21);
+  transform: scale(1.3);
+}
+
+.btns {
+  width: fit-content;
+  margin: 70px auto;
+}
+
+.players {
+  margin: auto;
+  width: fit-content;
+  display: flex;
+}
+
+.pbox {
+  font-size: 50px;
+  width: 200px;
+  margin: 0% 40px;
+  height: fit-content;
+  display: inline;
+}
+
+.name {
+  font-size: 50px;
+  color: rgb(255, 238, 0);
+  font-family: monospace;
+  text-shadow: -1px 0px 3px rgb(0, 0, 0);
+}
+
+.result {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-size: 45px;
+  width: fit-content;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: -4px -2px 8px rgba(27, 27, 27, 0.73);
+  margin: auto;
+}
+
+.footer {
+  text-align: right;
+}
+
+.footer button {
+  font-size: 30px;
+  margin-right: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border: 1px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+.footer button:hover {
+  background-color: rgb(8, 8, 8);
+  color: white;
+  border: 1px solid white;
+}
+
+.rules {
+  background-color: white;
+  width: fit-content;
+  padding: 20px;
+  font-size: 30px;
+  box-shadow: 1px 9px 9px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin: 58px auto;
+}
+
+img{
+  width: 325px;
+  height: 322px;
+}
+
+.rules div {
+  text-align: right;
+}
+
+.rules div button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
